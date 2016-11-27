@@ -44,6 +44,20 @@ class DateViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToOverview"
+        {
+            if let destinationsVC  = segue.destination as? OverviewViewController {
+                // destination
+                destinationsVC.pointedDestination =  destinationLabelD.text!
+                // departure
+                destinationsVC.departureDateO = departureDate.text!
+                // arrival
+                destinationsVC.arrivalDateO = arrivalDate.text!
+                
+            }
+        }
+    }
    
 }
     

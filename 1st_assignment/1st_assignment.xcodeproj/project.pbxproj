@@ -14,6 +14,7 @@
 		4669D9841DEB2BC700E6EDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669D9821DEB2BC700E6EDFD /* LaunchScreen.storyboard */; };
 		4669D98F1DEB44B600E6EDFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4669D98E1DEB44B600E6EDFD /* CoreLocation.framework */; };
 		4669D9911DEB4F2700E6EDFD /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669D9901DEB4F2700E6EDFD /* DateViewController.swift */; };
+		4669D9951DEB625C00E6EDFD /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669D9941DEB625C00E6EDFD /* OverviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4669D9851DEB2BC700E6EDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4669D98E1DEB44B600E6EDFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4669D9901DEB4F2700E6EDFD /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		4669D9941DEB625C00E6EDFD /* OverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				4669D9821DEB2BC700E6EDFD /* LaunchScreen.storyboard */,
 				4669D9851DEB2BC700E6EDFD /* Info.plist */,
 				4669D9901DEB4F2700E6EDFD /* DateViewController.swift */,
+				4669D9941DEB625C00E6EDFD /* OverviewViewController.swift */,
 			);
 			path = 1st_assignment;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4669D97C1DEB2BC700E6EDFD /* ViewController.swift in Sources */,
+				4669D9951DEB625C00E6EDFD /* OverviewViewController.swift in Sources */,
 				4669D9911DEB4F2700E6EDFD /* DateViewController.swift in Sources */,
 				4669D97A1DEB2BC700E6EDFD /* AppDelegate.swift in Sources */,
 			);

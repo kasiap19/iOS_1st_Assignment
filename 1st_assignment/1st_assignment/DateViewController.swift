@@ -9,6 +9,9 @@
 import UIKit
 
 class DateViewController: UIViewController {
+    // destination label
+    
+    @IBOutlet weak var destinationLabelD: UILabel!
     // departure
     @IBOutlet weak var departureDate: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
@@ -18,6 +21,8 @@ class DateViewController: UIViewController {
         let strDate = dateFormatter.string(from: datePicker.date)
         self.departureDate.text = strDate
     }
+    // pointed destination
+    var pointedDestination = ""
     // arrival
     @IBOutlet weak var arrivalDate: UILabel!
     @IBOutlet weak var arrivalPicker: UIDatePicker!
@@ -30,7 +35,7 @@ class DateViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+        destinationLabelD.text!  = pointedDestination
         
     }
     

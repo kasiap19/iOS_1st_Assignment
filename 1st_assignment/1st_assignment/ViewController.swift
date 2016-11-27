@@ -13,6 +13,7 @@ import CoreLocation
 class ViewController: UIViewController,UISearchBarDelegate, CLLocationManagerDelegate {
     var LocationManager = CLLocationManager()
     
+    @IBOutlet weak var destinationLabel: UILabel!
     @IBOutlet weak var mapView: MKMapView!
     
     // search
@@ -70,12 +71,17 @@ class ViewController: UIViewController,UISearchBarDelegate, CLLocationManagerDel
             self.mapView.centerCoordinate = self.pointAnnotation.coordinate
             self.mapView.addAnnotation(self.pinAnnotationView.annotation!)
             
-            // display name of the city in the label
-//            self.pointedDestination.text = searchBar.text!
+            self.destinationLabel.text! = searchBar.text!
         }
-        
-        
-        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToDate"
+        {
+            if let destinationVC = segue.destination as? DateViewController {
+                destinationVC.pointedDestination =  destinationLabel.text!
+            }
+        }
     }
     
     

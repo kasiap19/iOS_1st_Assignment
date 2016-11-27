@@ -13,6 +13,7 @@
 		4669D9811DEB2BC700E6EDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4669D9801DEB2BC700E6EDFD /* Assets.xcassets */; };
 		4669D9841DEB2BC700E6EDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4669D9821DEB2BC700E6EDFD /* LaunchScreen.storyboard */; };
 		4669D98F1DEB44B600E6EDFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4669D98E1DEB44B600E6EDFD /* CoreLocation.framework */; };
+		4669D9911DEB4F2700E6EDFD /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4669D9901DEB4F2700E6EDFD /* DateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4669D9831DEB2BC700E6EDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4669D9851DEB2BC700E6EDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4669D98E1DEB44B600E6EDFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4669D9901DEB4F2700E6EDFD /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4669D9801DEB2BC700E6EDFD /* Assets.xcassets */,
 				4669D9821DEB2BC700E6EDFD /* LaunchScreen.storyboard */,
 				4669D9851DEB2BC700E6EDFD /* Info.plist */,
+				4669D9901DEB4F2700E6EDFD /* DateViewController.swift */,
 			);
 			path = 1st_assignment;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4669D97C1DEB2BC700E6EDFD /* ViewController.swift in Sources */,
+				4669D9911DEB4F2700E6EDFD /* DateViewController.swift in Sources */,
 				4669D97A1DEB2BC700E6EDFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +318,7 @@
 				4669D98A1DEB2BC800E6EDFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
